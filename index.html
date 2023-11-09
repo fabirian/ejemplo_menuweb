@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menú de Restaurante</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="Css/styles.css"> 
+</head>
+
+<body>
+
+    <div data-role="page" id="menu-page">
+        <div data-role="header">
+            <h1>Menú del Restaurante</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <div id="menu-tabs">
+                <ul>
+                    <li><a href="#comidas">Comidas</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                </ul>
+
+                <div id="comidas" class="ui-body-d ui-content">
+                    <div id="listaComidas" class="menu-content"></div>
+                </div>
+
+                <div id="bebidas" class="ui-body-d ui-content">
+                    <div id="listaBebidas" class="menu-content"></div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <p>© 2023 Arlex Galindez. Todos los derechos reservados.</p>
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="Script/scripts.js"></script>
+
+</body>
+
+</html>
+
